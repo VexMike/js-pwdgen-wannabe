@@ -12,6 +12,9 @@ console.log(color)
 let age = 900; //number
 console.log(age)
 
-let password = 'name' + 'surname' + 'color' + age /*+ '900'*/; //string
+let password = 'Yoda' + 'Master' + 'Green' + age /*+ '900'*/; //string
 console.log(password)
+
+let userPassword = prompt('Enter Password'); //string //null
+console.log('Password' + ' ' + userPassword + ' ' + 'correct');
 
