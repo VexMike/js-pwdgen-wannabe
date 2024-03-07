@@ -18,3 +18,5 @@ console.log(password)
 let userPassword = prompt('Enter Password'); //string //null
 console.log('Password' + ' ' + userPassword + ' ' + 'correct');
 
+let randomInteger = Math.floor(Math.random() * 101); //number
+console.log(randomInteger)
