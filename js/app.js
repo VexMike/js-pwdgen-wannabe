@@ -24,12 +24,14 @@ const numeroCasuale1 = Math.floor(Math.random() * 100) // number
 
 
 
-/*function random(min, max) {
-  const num = Math.floor(Math.random() * (max - min + 1)) + min;
-  return num;
+/*
+const numeroCasuale2 = getRandomIntInclusive(0, 100)
+function getRandomIntInclusive(min, max) {
+  const minCeiled = Math.ceil(min);
+  const maxFloored = Math.floor(max);
+  return Math.floor(Math.random() * (maxFloored - minCeiled + 1) + minCeiled); // The maximum is inclusive and the minimum is inclusive
 }
-
-random(1, 10);*/
+*/
 
 
 
